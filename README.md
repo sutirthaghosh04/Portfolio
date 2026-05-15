@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sutirtha Ghosh — Personal Portfolio
 
 A modern, fully responsive personal portfolio website for **Sutirtha Ghosh**, a B.Tech student in Electronics and Computer Science with interests in Data Analytics, AI, and Software Development.
@@ -277,3 +278,6 @@ MIT License — free to use and modify for your own portfolio.
 ## Acknowledgments
 
 Built with React & Tailwind CSS · Animations by Framer Motion
+=======
+# Portfolio
+>>>>>>> a37346de85d8ee289d2697a9468209a2554a46c5
