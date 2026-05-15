@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#1e293b"/>
+  <defs>
+    <linearGradient id="av" x1="0" y1="0" x2="400" y2="400">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="160" r="70" fill="url(#av)" opacity="0.8"/>
+  <ellipse cx="200" cy="320" rx="110" ry="90" fill="url(#av)" opacity="0.5"/>
+  <text x="200" y="380" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="16">Sutirtha Ghosh</text>
+</svg>

@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-teal-600/25 text-teal-900 dark:text-teal-50;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-zinc-300 dark:bg-zinc-700;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 sm:py-28 lg:px-8;
+  }
+
+  .section-alt {
+    @apply bg-zinc-50 dark:bg-zinc-900/40;
+  }
+
+  .card {
+    @apply rounded-xl border border-zinc-200 bg-white shadow-sm transition-shadow duration-300
+      hover:shadow-md
+      dark:border-zinc-800 dark:bg-zinc-900 dark:shadow-lg dark:hover:border-zinc-700 dark:hover:shadow-xl;
+  }
+
+  .accent-line {
+    @apply h-px w-12 bg-teal-600;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white
+      transition-all duration-200 hover:bg-zinc-800
+      dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-zinc-300 bg-transparent px-5 py-2.5 text-sm font-medium text-zinc-700
+      transition-all duration-200 hover:border-zinc-400 hover:bg-zinc-50
+      dark:border-zinc-600 dark:text-zinc-300 dark:hover:border-zinc-500 dark:hover:bg-zinc-800/50;
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-zinc-200 bg-white px-4 py-3 text-sm text-zinc-900 outline-none
+      transition-colors placeholder:text-zinc-400
+      focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20
+      dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:placeholder:text-zinc-500
+      dark:focus:border-teal-500 dark:focus:ring-teal-500/20;
+  }
+
+  .tag {
+    @apply rounded-md bg-zinc-100 px-2.5 py-1 text-xs font-medium text-zinc-600
+      dark:bg-zinc-800 dark:text-zinc-400;
+  }
+}
