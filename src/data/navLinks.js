@@ -10,9 +10,9 @@ export const navLinks = [
 ];
 
 export const socialLinks = {
-  linkedin: 'https://linkedin.com/in/sutirthaghosh',
-  github: 'https://github.com/sutirthaghosh',
-  email: 'mailto:sutirtha.ghosh@example.com',
+  linkedin: 'https://linkedin.com/in/sutirthaghosh13',
+  github: 'https://github.com/sutirthaghosh04',
+  email: 'mailto:sutirthaghosh04@gmail.com',
 };
 
 export const heroTitles = [
