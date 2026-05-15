@@ -10,7 +10,7 @@ export const navLinks = [
 ];
 
 export const socialLinks = {
-  linkedin: 'https://linkedin.com/in/sutirthaghosh13',
+  linkedin: 'https://linkedin.com/in/sutirtha-ghosh13',
   github: 'https://github.com/sutirthaghosh04',
   email: 'mailto:sutirthaghosh04@gmail.com',
 };
