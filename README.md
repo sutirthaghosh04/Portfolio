@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sutirtha Ghosh — Personal Portfolio
 
 A modern, fully responsive personal portfolio website for **Sutirtha Ghosh**, a B.Tech student in Electronics and Computer Science with interests in Data Analytics, AI, and Software Development.
@@ -12,7 +12,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 After deployment, add your live URL here:
 
 ```
-https://your-portfolio.vercel.app
+https://portfolio-coral-eta-38.vercel.app/
 ```
 
 ---
@@ -280,4 +280,4 @@ MIT License — free to use and modify for your own portfolio.
 Built with React & Tailwind CSS · Animations by Framer Motion
 =======
 # Portfolio
->>>>>>> a37346de85d8ee289d2697a9468209a2554a46c5
+
