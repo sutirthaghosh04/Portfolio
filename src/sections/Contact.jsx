@@ -103,7 +103,7 @@ export default function Contact() {
             </p>
             <ul className="space-y-3">
               {[
-                { href: socialLinks.email, icon: HiMail, text: 'sutirtha.ghosh@example.com' },
+                { href: socialLinks.email, icon: HiMail, text: 'sutirthaghosh04@gmail.com' },
                 { href: socialLinks.linkedin, icon: FaLinkedinIn, text: 'LinkedIn' },
                 { href: socialLinks.github, icon: FaGithub, text: 'GitHub' },
               ].map(({ href, icon: Icon, text }) => (
